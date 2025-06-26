@@ -1,0 +1,18 @@
+.bg-orange {
+	background: #DA552F;
+}
+
+.btn:hover {
+	background: grey;
+}
+
+.form-control:focus {
+	border-color: #DA552F;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px
+		rgba(255, 0, 0, 0.6);
+}
+
+.form-control::placeholder {
+	opacity: 0.2;
+}
+

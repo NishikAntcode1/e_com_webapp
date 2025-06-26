@@ -4,8 +4,8 @@
 "http://java.sun.com/xml/ns/persistence
     http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
     <persistence-unit name="myJpaUnit">
-    	<class>com.e_comm_web.entity.Product</class>
-        <class>com.e_comm_web.entity.Category</class>
+    	<class>com.e_com_webapp.entity.Product</class>
+        <class>com.e_com_webapp.entity.Category</class>
 	    <properties>
 	    	<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
 	            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/postgres"/>
